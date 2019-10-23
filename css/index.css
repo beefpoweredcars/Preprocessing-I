@@ -157,11 +157,7 @@ nav a {
   text-decoration: none;
   margin: 2% 4%;
 }
-.header {
-  display: flex;
-  justify-content: center;
-}
-.header header {
+header {
   border: 1px solid black;
   padding: 2%;
   display: flex;
@@ -169,22 +165,22 @@ nav a {
   justify-content: flex-start;
   width: 80%;
 }
-.header header h1 {
+header h1 {
   color: #a164c5;
   font-size: 30px;
   padding: 3%;
 }
-.header header h2 {
+header h2 {
   font-size: 20px;
   color: #a164c5;
   padding-left: 3%;
 }
-.header header p {
+header p {
   margin-top: 1%;
   color: #a164c5;
   padding-left: 3%;
 }
-.header header .contact-me {
+header .contact-me {
   margin-top: 2%;
   margin-left: 25%;
   border-radius: 5px;
@@ -192,29 +188,29 @@ nav a {
   width: 14%;
   text-align: center;
 }
-.header header .contact-me a {
+header .contact-me a {
   text-decoration: none;
   color: #a164c5;
 }
-.header .skills {
+.skills {
   color: #a164c5;
   margin-top: 6%;
 }
-.header .skills ul {
+.skills ul {
   color: #a164c5;
 }
-.header .skills h2 {
-  margin-bottom: 100px;
+.skills h2 {
+  margin-bottom: 3%;
 }
-.header .work-history {
-  margin-top: 15%;
+.work-history {
+  margin-top: 10%;
 }
-.header .work-history h2 {
+.work-history h2 {
   font-size: 20px;
   color: #a164c5;
 }
-.header .work-history table,
-.header .work-history th,
-.header .work-history td {
+.work-history table,
+.work-history th,
+.work-history td {
   border: 1px solid black;
 }
