@@ -51,31 +51,35 @@ table {
 
 /* Set every element's box-sizing to border-box */
 
+// Variables
+
 @text-color: rgb(161, 100, 197);
+
 @h2-font-size: 20px; 
 
-// .box-two-column{
-// 	display: flex;
-// 	justify-content: center;
-// 	flex-direction: row;
-// }
 
-// .content-two-column{
-// 	width: 45%;
-// 	margin: 2%;
-// }
+// Mixins
 
 .a {
 	text-decoration: none;
 	color: @text-color;
 }
 
+.h2 {
+	font-size: @h2-font-size;
+	color: @text-color;
+	margin-top:2%;
+	margin-bottom: 2%;
+}
+
+
+
+
 .container {
 	width:90%;
 	max-width: 1000px;
 	margin: auto;
 }
-
 
 
 * {
@@ -126,8 +130,7 @@ nav {
 		}
 	
 		h2 {
-			font-size: @h2-font-size;
-			color: @text-color;
+			.h2();
 			padding-left: 3%;
 		}
 	
@@ -163,7 +166,7 @@ nav {
 
 
 	h2 {
-		margin-bottom: 3%;
+		.h2();
 	}
 
 }
@@ -173,9 +176,7 @@ nav {
 		margin-top: 10%;
 	
 	h2{
-		font-size: @h2-font-size;
-		color: @text-color;
-		margin-bottom: 2%;
+		.h2();
 	}
 
 	table, th, td{
@@ -184,6 +185,24 @@ nav {
 
 }
 
+.contact{
+	margin-top: 10%;
+
+	h2{
+		.h2();
+	}
+
+	p{
+		display: block;
+		color: @text-color
+	}
+
+}
+
+
+
+
+// Element level styling
 
 hr{
 	display: none;

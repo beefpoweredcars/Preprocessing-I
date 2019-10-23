@@ -127,6 +127,12 @@ table {
   text-decoration: none;
   color: #a164c5;
 }
+.h2 {
+  font-size: 20px;
+  color: #a164c5;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 .container {
   width: 90%;
   max-width: 1000px;
@@ -170,6 +176,8 @@ header h1 {
 header h2 {
   font-size: 20px;
   color: #a164c5;
+  margin-top: 2%;
+  margin-bottom: 2%;
   padding-left: 3%;
 }
 header p {
@@ -198,7 +206,10 @@ header .contact-me a {
   list-style-type: square;
 }
 .skills h2 {
-  margin-bottom: 3%;
+  font-size: 20px;
+  color: #a164c5;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 .work-history {
   margin-top: 10%;
@@ -206,12 +217,26 @@ header .contact-me a {
 .work-history h2 {
   font-size: 20px;
   color: #a164c5;
+  margin-top: 2%;
   margin-bottom: 2%;
 }
 .work-history table,
 .work-history th,
 .work-history td {
   border: 1px solid black;
+}
+.contact {
+  margin-top: 10%;
+}
+.contact h2 {
+  font-size: 20px;
+  color: #a164c5;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.contact p {
+  display: block;
+  color: #a164c5;
 }
 hr {
   display: none;
