@@ -107,10 +107,6 @@ section {
 body {
   line-height: 1;
 }
-ol,
-ul {
-  list-style: none;
-}
 blockquote,
 q {
   quotes: none;
@@ -199,6 +195,7 @@ header .contact-me a {
 }
 .skills ul {
   color: #a164c5;
+  list-style-type: square;
 }
 .skills h2 {
   margin-bottom: 3%;
@@ -209,9 +206,21 @@ header .contact-me a {
 .work-history h2 {
   font-size: 20px;
   color: #a164c5;
+  margin-bottom: 2%;
 }
 .work-history table,
 .work-history th,
 .work-history td {
   border: 1px solid black;
+}
+hr {
+  display: none;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  border: 1px solid black;
+}
+@media (max-width: 500px) {
+  hr {
+    display: block;
+  }
 }
