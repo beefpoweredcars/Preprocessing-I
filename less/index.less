@@ -63,8 +63,13 @@ table {
 	margin: 2%;
 }
 
+.a {
+	text-decoration: none;
+	color: @text-color;
+}
+
 .container {
-	
+	width:90%;
 	max-width: 1000px;
 	margin: auto;
 }
@@ -120,7 +125,19 @@ nav {
 			color: @text-color;
 			padding-left: 3%;
 		}
-	
+		
+		.contact-me{
+			margin-top:2%;
+            margin-left: 25%;
+			border-radius: 5px;
+			border: 1px solid brown;
+			width: 14%;
+			text-align: center;
+
+			a{
+				.a()
+			}
+		}
 }
 // header {
 // 	border: 1px solid black;
@@ -152,8 +169,14 @@ nav {
 // }
 
 .skills {
+	color: @text-color;
+	margin-top: 6%;
 	.box-two-column(){
-	
+	}
+
+	ul{
+		color: @text-color;
+		list-style-type: square;
 	}
 
 	.skills-content{

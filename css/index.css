@@ -136,7 +136,12 @@ table {
   width: 45%;
   margin: 2%;
 }
+.a {
+  text-decoration: none;
+  color: #a164c5;
+}
 .container {
+  width: 90%;
   max-width: 1000px;
   margin: auto;
 }
@@ -182,6 +187,26 @@ header p {
   margin-top: 1%;
   color: #a164c5;
   padding-left: 3%;
+}
+header .contact-me {
+  margin-top: 2%;
+  margin-left: 25%;
+  border-radius: 5px;
+  border: 1px solid brown;
+  width: 14%;
+  text-align: center;
+}
+header .contact-me a {
+  text-decoration: none;
+  color: #a164c5;
+}
+.skills {
+  color: #a164c5;
+  margin-top: 6%;
+}
+.skills ul {
+  color: #a164c5;
+  list-style-type: square;
 }
 .skills .skills-content {
   width: 45%;
