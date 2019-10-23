@@ -164,6 +164,7 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   width: 80%;
+  margin: auto;
 }
 header h1 {
   color: #a164c5;
