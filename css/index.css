@@ -127,15 +127,6 @@ table {
   border-spacing: 0;
 }
 /* Set every element's box-sizing to border-box */
-.box-two-column {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-.content-two-column {
-  width: 45%;
-  margin: 2%;
-}
 .a {
   text-decoration: none;
   color: #a164c5;
@@ -221,9 +212,6 @@ nav a {
 .header .work-history h2 {
   font-size: 20px;
   color: #a164c5;
-}
-.header .work-history table {
-  margin: 5%;
 }
 .header .work-history table,
 .header .work-history th,
