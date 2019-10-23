@@ -85,6 +85,12 @@ html, body {
 nav {
 	display: flex;
 	justify-content: flex-end;
+	
+
+	@media (max-width: 500px){
+		justify-content: center;
+	}
+
 
 	a {
 		color:@text-color;
@@ -182,5 +188,21 @@ nav {
 	.skills-content{
 		.content-two-column();
 	}
-
 }
+
+	.work-history{
+		margin-top: 15%;
+		
+	}
+
+	table{
+		margin: 5%;
+	}
+
+	table, th, td{
+		border: 1px solid black;
+	}
+
+
+
+

@@ -156,6 +156,11 @@ nav {
   display: flex;
   justify-content: flex-end;
 }
+@media (max-width: 500px) {
+  nav {
+    justify-content: center;
+  }
+}
 nav a {
   color: #a164c5;
   text-decoration: none;
@@ -211,4 +216,15 @@ header .contact-me a {
 .skills .skills-content {
   width: 45%;
   margin: 2%;
+}
+.work-history {
+  margin-top: 15%;
+}
+table {
+  margin: 5%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
 }
